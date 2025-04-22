@@ -3,9 +3,9 @@ import shutil
 import random
 
 # Set the absolute path to your Malayalam character dataset
-dataset_dir = "E:\\sem4\\ML\\project\\NextCode\\malayalam_data"  # Update this to your dataset path
-train_dir = "dataset\\malayalam_chars\\train"
-test_dir = "dataset\\malayalam_chars\\test"
+dataset_dir = "Telugu"  # Update this to your dataset path
+train_dir = "dataset\\telugu_chars\\train"
+test_dir = "dataset\\telugu_chars\\test"
 
 # Create directories if they don't exist
 os.makedirs(train_dir, exist_ok=True)
